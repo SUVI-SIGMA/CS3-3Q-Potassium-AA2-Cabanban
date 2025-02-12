@@ -5,7 +5,7 @@ function population() {
     let valOne = parseFloat(initialPopulation);
     let valTwo = parseFloat(rateOfGrowth);
     let valThree = parseFloat(timeinHours);
-    let finalPopulation = Math.round(valOne * (Math.pow(Math.E,valTwo) * (Math.pow(Math.E,valThree))));
+    let finalPopulation = Math.round(valOne * (Math.pow(Math.E,valTwo) * valThree));
     
     let location = prompt("Enter the location of the Monster: ");
     let name = prompt("Enter the name of the Monster: ");
